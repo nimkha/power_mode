@@ -2,6 +2,7 @@
 
 The purpose of this script is to set the CPU power mode. This will force the CPU to run at higher frequency.
 This documentation will show how to set the script to run at startup. This is due to power mode can be set to default value on reboot/shutdown.
+
 ------------
 Development enviroment environment:
 - Ubuntu 20.04 64-bit

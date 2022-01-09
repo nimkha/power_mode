@@ -40,3 +40,7 @@ python3 path/to/sript.py
 ![](select_add.png)
 
 There you go, now the script will run at startup and set power mode to performance if not already set.
+
+------------
+
+Special thanks to @blarsen for providing commands

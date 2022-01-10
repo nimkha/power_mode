@@ -24,7 +24,7 @@ $ sudo visudo
 ```
 Then add following line, change "username" to your own
 ```bash
-username ALL=NOPASSWD:/usr/bin/tee echo performance | sudo tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+username ALL=NOPASSWD:/usr/bin/tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
 ```
 Thats it, press "ctrl+x" then "y" to save and exit
 

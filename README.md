@@ -28,6 +28,11 @@ username ALL=NOPASSWD:/usr/bin/tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_
 ```
 Thats it, press "ctrl+x" then "y" to save and exit
 
+### Make script executable
+```bash
+sudo chmod +x set_power_mode.py
+```
+
 ### Add script to run at startup
 Search for "Startup Applications Preferences" on your system.
 Select "Add"
